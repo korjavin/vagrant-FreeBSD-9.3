@@ -20,7 +20,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   config.vm.provider "virtualbox" do |v|
-      v.name = "free-10.1"
+      v.name = "free-9.3"
       v.memory = 1048
       v.cpus = 1
   end
